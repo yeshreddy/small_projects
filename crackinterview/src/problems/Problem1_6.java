@@ -26,6 +26,7 @@ public class Problem1_6 {
                 int temp=matrix[j][k];
                 matrix[j][k]=matrix[j][l-k];
                 matrix[j][l-k]=temp;
+                
             }
         }
     }
